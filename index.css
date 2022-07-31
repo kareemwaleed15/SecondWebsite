@@ -1,0 +1,318 @@
+body {
+  background-color: #f5f5f5;
+}
+p {
+  color: #4e4e4e;
+}
+span {
+  color: #4e4e4e;
+}
+.homeBg {
+  background-image: url(images/intro-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.homeBgLayer {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100vh;
+}
+.nav-link {
+  color: white !important;
+  position: relative;
+  padding-left: 1 !important;
+}
+.nav-link::after {
+  content: "";
+  background-color: #ffffff;
+  position: absolute;
+  width: 0%;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  transition: 0.5s;
+}
+@media screen and (max-width:992px) {
+  .nav-link::after {
+    background-color: #0078ff !important;
+  }
+}
+.nav-item:hover .nav-link::after {
+  width: 35px;
+}
+.navRight {
+  font-weight: 600;
+  font-size: 16px;
+}
+.navLeft {
+  font-weight: 600;
+  font-size: 26px;
+}
+.homeCaption {
+  height: 100%;
+}
+@media screen and (max-width: 992px) {
+  nav {
+    background-color: rgb(255, 255, 255);
+  }
+}
+@media screen and (max-width: 992px) {
+  .navTextColor {
+    color: #0078ff !important;
+  }
+}
+.navShadow {
+  box-shadow: none !important;
+}
+.black {
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+}
+.load {
+  width: 100%;
+  height: 0.7rem;
+  background-color: #cde1f8;
+}
+.load1 {
+  width: 85%;
+  height: 0.7rem;
+  background-color: #0078ff;
+}
+.load2 {
+  width: 75%;
+  height: 0.7rem;
+  background-color: #0078ff;
+}
+.load3 {
+  width: 50%;
+  height: 0.7rem;
+  background-color: #0078ff;
+}
+.load4 {
+  width: 90%;
+  height: 0.7rem;
+  background-color: #0078ff;
+}
+@media screen and (max-width: 576px) {
+  .plText {
+    margin-top: 30px;
+  }
+}
+.blueLine {
+  position: relative;
+  margin-bottom: 3rem;
+}
+.blueLine::before {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  background-color: #0078ff;
+  width: 100px;
+  height: 3px;
+}
+.aboutMeShadow {
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 / 6%), 0 2px 5px 0 rgb(0 0 0 / 20%);
+  background-color: #fff;
+}
+.line {
+  width: 40px;
+  height: 5px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 0 0 10px #0078ff;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.servicesShadow {
+  box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+  background-color: #fff;
+}
+.icon {
+  transition: 0.6s;
+}
+.servicesShadow:hover .icon {
+  color: #fff;
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+.secBg {
+  background-image: url(images/counters-bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.darkLayer {
+  width: 100%;
+  background-color: #0077ffab;
+}
+@media (max-width: 1024px) {
+  .secBg {
+    background-attachment: scroll;
+  }
+}
+.icon2 {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  line-height: 1.8;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+.icon3 {
+  color: #0078ff;
+  border: 2px #0078ff solid;
+  border-radius: 50%;
+  width: 40;
+  height: 40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+.textHover:hover {
+  text-decoration: none !important;
+}
+.parentHover:hover .childHover {
+  transform: scale(1.5);
+}
+.childHover {
+  transition: 1s;
+}
+.thirdBg {
+  background-image: url(images/overlay-bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+.darkLayer2 {
+  width: 100%;
+  background-color: #0077ffab;
+  height: 100%;
+}
+.icon4 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  font-size: 32px;
+  color: #0078ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.in1 {
+  background-color: #cde1f8 !important;
+  width: 18px !important;
+  height: 7px !important;
+  margin: 5px 5px;
+  border: none;
+}
+.carousel-indicators .active {
+  background-color: #1b1b1b !important;
+  width: 25px !important;
+  transition: 0.5s;
+}
+.in1:focus {
+  outline: 5px auto !important;
+}
+.test {
+  padding: 0.75rem 1.25rem;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.imgBlog {
+  width: 32px;
+  border-radius: 50%;
+}
+.blueBox {
+  position: absolute;
+  text-align: center;
+  top: -9%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #0078ff;
+  color: white;
+  border-radius: 4px;
+  width: fit-content;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 7 15 7 15;
+  font-weight: 500;
+}
+.aHover:hover {
+  color: #0078ff;
+  text-decoration: none;
+}
+.aHover {
+  color: black;
+  transition: 0.5s;
+}
+.forthBg {
+  background-image: url(images/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.padding {
+  padding: 3rem;
+}
+.portfolioPadding {
+  padding: 2rem 3% 1rem 4%;
+}
+.servicesPadding {
+  padding: 2.5rem 1.3rem;
+}
+.submitButton {
+  border-radius: 5rem;
+  padding: 1rem 2.2rem;
+  font-size: 1.2rem;
+  background-color: #0078ff;
+  color: #fff;
+  border: none;
+  transition: 0.5s;
+}
+.submitButton:hover {
+  box-shadow: 0 0 0 4px #cde1f8;
+  background-color: #0062d3;
+}
+.icon5Parent {
+  font-size: 1.7rem;
+  display: flex;
+}
+.icon5child {
+  box-shadow: 0 0 0 3px #0078ff;
+  margin-right: 18px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: 0.5s;
+}
+.icon5child:hover {
+  background-color: #0078ff;
+  color: #fff;
+  box-shadow: 0 0 0 3px #cde1f8;
+}
+.icon5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon5a:hover {
+  text-decoration: none;
+}
+.icon5a {
+  color: #000;
+}
